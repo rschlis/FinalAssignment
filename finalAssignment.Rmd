@@ -1,0 +1,52 @@
+---
+title: "Final Assignment"
+author: "Author: Rebecca Meador"
+date: "`r format(Sys.Date(), '%A, %B, %d, %Y')`"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## **Document Summary**
+
+This is my final assignment for the Coursera course titled, "Reproducible Templates for Analysis and Dissemination." This document will list some of the skills I learned in this course.  It will also include several elements that I learned about using in an **RMarkdown document** such as a bulleted list, a  plot, a table, and a document theme.  
+
+### **What I learned in this course**
+
+In this course, I learned the following:
+
+* How to create an RMarkdown document
+* How to knit my document to the following formats:
+    + HTML
+    + Docx
+    + PDF
+* How to create a website using RStudio
+* How to publish my new website using Rpubs
+
+I also learned how to insert a plot into my document using data from a built-in data set:
+
+### **Plot of Pressure Dataset**
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Additionally, I learned how to insert a table into my document using data from a built-in data set:
+
+### **Table Using the Cars dataset**
+
+```{r cars, echo=FALSE}
+head(cars,6)
+```
+
+## **Conclusion**
+
+Having never used R or RStudio before, everything in this course was new to me.  I learned a great deal about how to use RStudio to make modular templates that are easy to create, use, and share. I also learned how to easily disseminate my work on the web.
+
+
+
